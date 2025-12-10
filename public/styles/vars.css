@@ -1,0 +1,11 @@
+:root {
+--background: #FFFFFF; /* Fundo principal (branco) */
+--text: #222222; /* Texto principal (preto) */
+--accent-primary: #E0673C; /* Botões e destaques (Stir-Fry Carrot) */
+--accent-hover: #A55E2B; /* Hover de botões/links (Sesame Oil Amber) */
+--highlight: #D9A441; /* Destaques e bordas (Ginger Gold) */
+--success: #6FAE4F; /* Elementos positivos (Bok Choy Green) */
+--warning: #8F2C1C; /* Alertas e CTAs fortes (Soy Glaze Red) */
+--secondary-background: #F4EAD4; /* Background secundário suave */
+--dark-detail: #5A381E; /* Detalhes escuros e sombras (Wok Brown) */
+}
