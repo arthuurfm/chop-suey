@@ -1,0 +1,133 @@
+@import url('../../styles/vars.css');
+@import url('../../styles/reset.css');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px rgba(var(--dark-detail), 0.6);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.logo {
+  width: 12%;
+  height: 12%;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  width: 70%;
+  padding: 12px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: ease 0.2s;
+}
+
+#facebook-btn {
+  color: var(--text);
+}
+
+#facebook-btn::before, #google-btn::before {
+  content: '';
+  display: inline-block;
+  background-image: url('/assets/facebook-icon.png');
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+#facebook-btn:hover {
+  background-color: #E0E0E0;
+}
+
+#google-btn {
+  background-color: var(--accent-primary);
+  color: var(--text-secondary);
+}
+
+#google-btn::before {
+  background-image: url('/assets/google-icon.png');
+}
+
+#google-btn:hover {
+  background-color: var(--accent-hover);
+}
+
+form, .input-box {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.input-box {
+  width: 70%;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: var(--input-color);
+  border: 2px solid transparent;
+  outline: none;
+ 
+}
+
+.input-box input:focus {
+  background-color: #fff;
+  border: 2px solid var(--input-color);
+}
+
+#new-account-btn {
+  background-color: var(--accent-primary);
+  color: var(--text-secondary);
+}
+
+#new-account-btn:hover {
+  background-color: var(--accent-hover);
+}

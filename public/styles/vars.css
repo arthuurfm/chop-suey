@@ -7,5 +7,6 @@
 --highlight: #D9A441; /* Destaques e bordas (Ginger Gold) */
 --success: #6FAE4F; /* Elementos positivos (Bok Choy Green) */
 --warning: #8F2C1C; /* Alertas e CTAs fortes (Soy Glaze Red) */
---dark-detail: #5A381E; /* Detalhes escuros e sombras (Wok Brown) */
+--dark-detail: 141, 121, 98; /* Detalhes escuros e sombras (Wok Brown) */
+--input-color: #F0F0F0;
 }
