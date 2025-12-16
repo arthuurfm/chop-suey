@@ -24,8 +24,9 @@ header {
   gap: 24px;
 }
 
-.header-container nav h1 {
-  margin-right: 24px;
+.logo {
+  height: 75px;
+  width: 75px;
 }
 
 .account {

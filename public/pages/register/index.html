@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/pages/register/styles.css">
-  <title>Chop Suey!</title>
+  <link rel="icon" href="/assets/chop-suey-icon.png">
+  <title>Criar conta - Chop Suey!</title>
 </head>
 <body>
-  <h1><img class="logo" src="/assets/chop-suey-logo.png" alt="logo da chop suey"></h1>
+  <img class="logo" src="/assets/chop-suey-logo.png" alt="logo da chop suey">
   <div class="container">
-    <h2>Crie sua conta</h2>
+    <h1>Crie sua conta</h1>
     <div class="buttons">
       <span>Continue com:</span>
       <button id="facebook-btn">Continuar com Facebook</button>
@@ -20,17 +21,18 @@
 
       <div class="input-box">
         <label for="name">Nome</label>
-        <input type="text" id="name" placeholder="Ana">
+        <input type="text" id="name" placeholder="Ana Maria">
       </div>
 
       <div class="input-box">
-        <label for="email">Email ou celular</label>
+        <label for="email">Email</label>
         <input type="text" id="email" placeholder="email@email.com">
       </div>
 
-      <button type="submit" id="new-account-btn">Criar conta</button>
+      <button type="submit" id="new-account-btn">Continuar</button>
     </form>
     <p>Se você já tem uma conta, faça <a href="/login">login aqui</a>.</p>
   </div>
+  <script src="/pages/register/index.js" type="module"></script>
 </body>
 </html>

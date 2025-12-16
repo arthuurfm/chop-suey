@@ -25,19 +25,17 @@ body {
   align-items: center;
 }
 
-h1 {
-  position: absolute;
-  left: 16px;
-  top: 16px;
-}
-
 span {
   font-weight: bold;
 }
 
 .logo {
-  width: 12%;
-  height: 12%;
+  position: absolute;
+  left: 32px;
+  top: 32px;
+  cursor: pointer;
+  height: 75px;
+  width: 75px;
 }
 
 .buttons {
@@ -130,4 +128,8 @@ form, .input-box {
 
 #new-account-btn:hover {
   background-color: var(--accent-hover);
+}
+
+a:hover {
+  color: #000;
 }

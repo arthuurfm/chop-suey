@@ -30,6 +30,10 @@ function routes(app) {
   });
   
   app.use(express.static(publicDirectory));
+
+  app.use((req, res) => {
+    res.status(404).sendFile(path.join(publicDirectory, 'pages/notFound/index.html'));
+  });
 }
 
 export default routes;

@@ -3,7 +3,7 @@ const header = document.createElement('header');
 header.innerHTML = `
   <div class='header-container'> 
     <nav>
-      <h1>Chop Suey!</h1>
+      <img class="logo" src="/assets/chop-suey-logo.png" alt="logo da chop suey">
       <a class='delivery-btn' href='/delivery'>Entregador</a>
       <a class='restaurant-btn' href='/restaurant'>Restaurante</a>
     </nav>
