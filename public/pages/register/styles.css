@@ -113,7 +113,6 @@ form, .input-box {
   background-color: var(--input-color);
   border: 2px solid transparent;
   outline: none;
- 
 }
 
 .input-box input:focus {
