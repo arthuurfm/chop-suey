@@ -135,3 +135,60 @@ form, .input-box {
 a:hover {
   color: #000;
 }
+
+@media (max-width: 1023px) {
+  .logo {
+    inset: 32px 0 0 0;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 500px;
+    height: 500px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  button {
+    width: 60%;
+  }
+
+  .input-box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    inset: 32px 0 0 0;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 300px;
+    height: 500px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  button {
+    width: 85%;
+  }
+
+  .input-box {
+    width: 85%;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
